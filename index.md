@@ -15,9 +15,9 @@ startdate: 2021-03-19      # machine-readable start date for the workshop in YYY
 enddate: 2021-03-26        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Giacomo Peru", "Martino Sorbaro", "Luca Di Stasio", "Giorgia Mori", "Giuseppe Profiti"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Fabrizio Donzelli", "Annarita Marrano", "Mosè Giordano" ]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["first@example.org","second@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+email: ["luca.distasio@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes:  https://pad.carpentries.org/2021-03-19-italia-online
+eventbrite:           "139825167841"
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -160,8 +160,8 @@ address.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Dove:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
+  <strong>Dove:</strong> Il laboratorio si svolger&agrave; online. Gli istruttori comunicheranno
+  le informazioni necessarie per connettersi al laboratorio.
 </p>
 {% endif %}
 
@@ -191,7 +191,7 @@ Modify the block below if there are any special requirements.
   {% else %}
     I partecipanti devono avere a propria disposizione un computer con sistema operativo Mac, Linux o Windows (l'utilizzo di tablet, Chromebook, etc. non &egrave; supportato) sul quale hanno diritti d'amministratore.
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+   I partecipanti dovranno avere installato alcuni specifici software <strong>prima</strong> dell'inizio del laboratorio (per maggiori dettagli, vedere la lista <a href="#setup">in basso</a>).
 </p>
 
 {% comment %}
@@ -219,9 +219,8 @@ special instructions.
   attempt to provide them.
 </p>
 {% else %}
-  We are dedicated to providing a positive and accessible learning environment for all. Please
-  notify the instructors in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
+  Ci impegniamo ad offrire un ambiente d'apprendimento positivo e aperto a tutti. Non esitate
+  a contattare gli istruttori prima e durante il laboratorio nel caso abbiate bisogni particolari o suggerimenti.
 </p>
 {% endif %}
 
@@ -232,7 +231,7 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact:</strong>
-  Please email
+  Nel caso abbiate domande, contattaci via email a
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
@@ -247,13 +246,12 @@ Display the contact email address set in the configuration file.
   {% else %}
   to-be-announced
   {% endif %}
-  for more information.
 </p>
 
 <p id="roles">
-  <strong>Roles:</strong>
-  To learn more about the roles at the workshop (who will be doing what),
-  refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
+  <strong>Ruoli:</strong>
+  Per sapere di pi&ugrave; riguardo i ruoli durante il laboratorio (chi fa cosa),
+  visitate <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">le FAQ del laboratorio</a>.
 </p>
 
 {% comment %}
@@ -282,7 +280,7 @@ Edit the text to match who can attend the workshop. For instance:
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
-<h2 id="code-of-conduct">Code of Conduct</h2>
+<h2 id="code-of-conduct">Codice di condotta</h2>
 
 <p>
 Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
@@ -290,7 +288,7 @@ Everyone who participates in Carpentries activities is required to conform to th
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
+    <button type="button" class="btn btn-info">Segnala un incidente riguardo al codice di condotta</button>
   </a>
 </p>
 <hr/>
@@ -322,10 +320,10 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<h2 id="surveys">Questionari</h2>
+<p>Vi chiediamo cortesemente di rispondere ai due questionari seguenti (prima e dopo il laboratorio).</p>
+<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Questionario prima del laboratorio</a></p>
+<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Questionario dopo il laboratorio</a></p>
 
 <hr/>
 
@@ -352,7 +350,7 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">Programma</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
@@ -377,10 +375,10 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">Preparazione degli strumenti</h2>
 
 <p>
-  To participate in a
+  Per partecipare in un laboratorio
   {% if site.carpentry == "swc" %}
   Software Carpentry
   {% elsif site.carpentry == "dc" %}
@@ -388,9 +386,9 @@ please preview your site before committing, and make sure to run
   {% elsif site.carpentry == "lc" %}
   Library Carpentry
   {% endif %}
-  workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  ,
+  &grave; necessario avere accesso ai software descritti pi&ugrave; in basso. In pi&ugrave;,
+  &grave; necessario avere a disposizione un browser internet aggiornato.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
