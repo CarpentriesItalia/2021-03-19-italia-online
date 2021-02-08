@@ -283,12 +283,13 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">Codice di condotta</h2>
 
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+Ogni partecipante ad attivit&agrave; Carpentries deve rispettarne il
+Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">codice di condotta</a>. Nel documento di cui al link precedente troverete anche indicazioni su come segnalare eventuali incidenti legati al codice di condotta.
 </p>
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Segnala un incidente riguardo al codice di condotta</button>
+    <button type="button" class="btn btn-info">Segnala un incidente legato al codice di condotta</button>
   </a>
 </p>
 <hr/>
@@ -308,10 +309,10 @@ Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
 {% endcomment %}
 {% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
+<h2 id="collaborative_notes">Note condivise</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+A questo <a href="{{ page.collaborative_notes }}">link</a>, troverete un documento editabile da tutti i partecipanti che useremo per prendere appunti, interagire, condividere siti web utili e codice.
 </p>
 <hr/>
 {% endif %}
