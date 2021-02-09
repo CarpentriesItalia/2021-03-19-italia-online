@@ -309,7 +309,7 @@ Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
 {% endcomment %}
 {% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Note condivise</h2>
+<h2 id="collaborative_notes">Appunti condivisi</h2>
 
 <p>
 A questo <a href="{{ page.collaborative_notes }}">link</a>, troverete un documento editabile da tutti i partecipanti che useremo per prendere appunti, interagire, condividere siti web utili e codice.
@@ -392,9 +392,8 @@ please preview your site before committing, and make sure to run
   &grave; necessario avere a disposizione un browser internet aggiornato.
 </p>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  Potete trovare una lista di problemi comuni in fase di installazione, che aggiorniamo regolarmente come riferimento per gli istruttori, alla pagina
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions"> wiki Problemi e soluzioni di installazione e configurazione</a>.
 </p>
 
 {% comment %}
