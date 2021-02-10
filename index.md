@@ -284,7 +284,7 @@ CODE OF CONDUCT
 
 <p>
 Ogni partecipante ad attivit&agrave; Carpentries deve rispettarne il
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">codice di condotta</a>. Nel documento che trovate al link precedente troverete anche indicazioni su come segnalare eventuali incidenti legati al codice di condotta.
+<a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">codice di condotta</a>. Nel documento che trovate al link precedente troverete anche indicazioni su come segnalare eventuali incidenti legati al codice di condotta.
 </p>
 
 <p class="text-center">
