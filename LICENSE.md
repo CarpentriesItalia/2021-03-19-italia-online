@@ -34,18 +34,23 @@ materiale che siano in pubblico dominio o nei casi in cui il tuo utilizzo sia co
 
 Eccetto ove diversamente indicato, i programmi di esempio e il resto del software fornito da Software Carpentry e Data Carpentry sono resi disponibili sotto la [licenza MIT][mit-license], approvata dall'[OSI][osi].
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Si concede gratuitamente il permesso a ogni individuo in possesso di una copia di questo software
+e della documentazione associata (il "Software"), di interagire con il Software senza restrizioni,
+incluso senza limitazioni il diritto di utilizzare, copiare, modificare, unire, pubblicare, distribuire,
+e/o vendere copie del Software, e di permettere alle persone a cui il Software viene fornito di fare altrettanto,
+sotto le seguenti condizioni:
 
-La nota di copyright sopra riportata and questa nota di permesso dovranno essere
+La nota di diritto d'autore sopra riportata and questa nota di permesso dovranno essere
 incluse in tutte le copie o parti sostanziali del Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+IL SOFTWARE VIENE FORNITO NELLO STATO DI FATTO IN CUI SI TROVA,
+SENZA ALCUNA GARANZIA DI ALCUN TIPO, N&Egrave; ESPLICITA N&Egrave; IMPLICITA,
+INCLUSO E NON LIMITATO A LE GARANZIE DI COMMERCIABILIT&Agrave;, ADEGUATEZZA
+A SPECIFICI SCOPI E UTILIZZI E NON VIOLAZIONE DI SPECIFICI CODICI O LEGGI.
+GLI AUTORI O I TITOLARI DEL DIRITTO D'AUTORE NON SARANNO MAI IN ALCUN CASO
+RESPONSABILI PER ALCUN RECLAMO, DANNO O ALTRA COMPENSAZIONE O DEBITO, SIA IN UN'AZIONE
+DI CONTRATTO, TORTO O ALTRO, DERIVANTE DA O IN RELAZIONE
+CON IL SOFTWARE O L'USO O ALTRI RAPPORTI CON IL SOFTWARE.
 
 ## Marchi
 
