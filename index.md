@@ -85,7 +85,11 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<strong>Alcuni adblocker bloccano la finestra di registrazione di Eventbrite. Se non vedi la finestra qui sotto per registrarsi, controlla le impostazioni del tuo adblocker.</strong>
+<strong>
+  <span style="color:#ff0000;">Abbiamo già raggiunto il limite di partecipanti per questo evento. Ti consigliamo comunque di registrarti alla
+  lista di attesa: ti contatteremo se si liberano posti, ma anche non appena organizzeremo un altro evento in futuro.</span>
+  Alcuni adblocker bloccano la finestra di registrazione di Eventbrite. Se non vedi la finestra qui sotto per registrarsi, controlla le impostazioni del tuo adblocker.
+</strong>
 <iframe
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
